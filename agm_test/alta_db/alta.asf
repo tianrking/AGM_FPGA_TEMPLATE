@@ -1,9 +1,27 @@
+set_instance_assignment -name ENABLE_OPEN_DRAIN -to cusled1~output false
+set_instance_assignment -name ENABLE_OPEN_DRAIN -to out53~output false
+set_instance_assignment -name ENABLE_OPEN_DRAIN -to out52~output false
+set_instance_assignment -name ENABLE_OPEN_DRAIN -to out51~output false
+set_instance_assignment -name ENABLE_OPEN_DRAIN -to out55~output false
+set_instance_assignment -name ENABLE_OPEN_DRAIN -to out54~output false
 set_instance_assignment -name ENABLE_OPEN_DRAIN -to L[1]~output false
 set_instance_assignment -name ENABLE_OPEN_DRAIN -to L[0]~output false
+set_instance_assignment -name ENABLE_OPEN_DRAIN -to out66~output false
+set_instance_assignment -name ENABLE_OPEN_DRAIN -to out68~output false
+set_instance_assignment -name ENABLE_OPEN_DRAIN -to out67~output false
+set_instance_assignment -name ENABLE_OPEN_DRAIN -to out72~output false
+set_instance_assignment -name ENABLE_OPEN_DRAIN -to out71~output false
+set_instance_assignment -name ENABLE_OPEN_DRAIN -to out70~output false
+set_instance_assignment -name ENABLE_OPEN_DRAIN -to out74~output false
+set_instance_assignment -name ENABLE_OPEN_DRAIN -to out75~output false
+set_instance_assignment -name ENABLE_OPEN_DRAIN -to out76~output false
 set_instance_assignment -name ENABLE_OPEN_DRAIN -to L[2]~output false
 set_instance_assignment -name ENABLE_OPEN_DRAIN -to pwm1~output false
 set_instance_assignment -name ENABLE_OPEN_DRAIN -to pwm2~output false
 set_instance_assignment -name ENABLE_OPEN_DRAIN -to L[3]~output false
+set_instance_assignment -name ENABLE_OPEN_DRAIN -to cusled3~output false
+set_instance_assignment -name ENABLE_OPEN_DRAIN -to cusled4~output false
+set_instance_assignment -name ENABLE_OPEN_DRAIN -to cusled2~output false
 set_location_assignment -to L PIN_144
 set_location_assignment -to L[0] PIN_144
 set_instance_assignment -to L[0] -name IO_STANDARD "2.5 V"
@@ -15,9 +33,53 @@ set_location_assignment -to L[3] PIN_141
 set_instance_assignment -to L[3] -name IO_STANDARD "2.5 V"
 set_location_assignment -to clk PIN_23
 set_instance_assignment -to clk -name IO_STANDARD "2.5 V"
+set_location_assignment -to cusled1 PIN_135
+set_instance_assignment -to cusled1 -name IO_STANDARD "2.5 V"
+set_location_assignment -to cusled2 PIN_136
+set_instance_assignment -to cusled2 -name IO_STANDARD "2.5 V"
+set_location_assignment -to cusled3 PIN_137
+set_instance_assignment -to cusled3 -name IO_STANDARD "2.5 V"
+set_location_assignment -to cusled4 PIN_138
+set_instance_assignment -to cusled4 -name IO_STANDARD "2.5 V"
+set_location_assignment -to in50 PIN_50
+set_instance_assignment -to in50 -name IO_STANDARD "2.5 V"
+set_location_assignment -to in65 PIN_65
+set_instance_assignment -to in65 -name IO_STANDARD "2.5 V"
+set_location_assignment -to in69 PIN_69
+set_instance_assignment -to in69 -name IO_STANDARD "2.5 V"
+set_location_assignment -to in73 PIN_77
+set_instance_assignment -to in73 -name IO_STANDARD "2.5 V"
+set_location_assignment -to out51 PIN_51
+set_instance_assignment -to out51 -name IO_STANDARD "2.5 V"
+set_location_assignment -to out52 PIN_52
+set_instance_assignment -to out52 -name IO_STANDARD "2.5 V"
+set_location_assignment -to out53 PIN_53
+set_instance_assignment -to out53 -name IO_STANDARD "2.5 V"
+set_location_assignment -to out54 PIN_54
+set_instance_assignment -to out54 -name IO_STANDARD "2.5 V"
+set_location_assignment -to out55 PIN_55
+set_instance_assignment -to out55 -name IO_STANDARD "2.5 V"
+set_location_assignment -to out66 PIN_66
+set_instance_assignment -to out66 -name IO_STANDARD "2.5 V"
+set_location_assignment -to out67 PIN_67
+set_instance_assignment -to out67 -name IO_STANDARD "2.5 V"
+set_location_assignment -to out68 PIN_68
+set_instance_assignment -to out68 -name IO_STANDARD "2.5 V"
+set_location_assignment -to out70 PIN_70
+set_instance_assignment -to out70 -name IO_STANDARD "2.5 V"
+set_location_assignment -to out71 PIN_71
+set_instance_assignment -to out71 -name IO_STANDARD "2.5 V"
+set_location_assignment -to out72 PIN_72
+set_instance_assignment -to out72 -name IO_STANDARD "2.5 V"
+set_location_assignment -to out74 PIN_74
+set_instance_assignment -to out74 -name IO_STANDARD "2.5 V"
+set_location_assignment -to out75 PIN_75
+set_instance_assignment -to out75 -name IO_STANDARD "2.5 V"
+set_location_assignment -to out76 PIN_76
+set_instance_assignment -to out76 -name IO_STANDARD "2.5 V"
 set_location_assignment -to pwm1 PIN_44
 set_instance_assignment -to pwm1 -name IO_STANDARD "2.5 V"
 set_location_assignment -to pwm2 PIN_43
 set_instance_assignment -to pwm2 -name IO_STANDARD "2.5 V"
-set_location_assignment -to rst PIN_24
+set_location_assignment -to rst PIN_89
 set_instance_assignment -to rst -name IO_STANDARD "2.5 V"
