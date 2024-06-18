@@ -1,0 +1,10 @@
+set_global_assignment -name DEVICE_IO_STANDARD "2.5 V"
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS_WEAK_PULLUP "AS INPUT TRI-STATED"
+set_instance_assignment -name IO_STANDARD "2.5 V" -to L[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to L[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to L[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to L[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to clk
+set_instance_assignment -name IO_STANDARD "2.5 V" -to pwm1
+set_instance_assignment -name IO_STANDARD "2.5 V" -to pwm2
+set_instance_assignment -name IO_STANDARD "2.5 V" -to rst

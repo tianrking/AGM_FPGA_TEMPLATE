@@ -1,0 +1,6 @@
+Info: Found GCLK net rst~inputclkctrl_outclk (7).
+Info: Found GCLK net clk~inputclkctrl_outclk (8).
+Warn: Auto constraint INTERNAL: create_clock -name Internal_generated_clock_HY601|clk -period 1000.000 clk.
+Warn: User constraints coverage is too low at 0.0%.
+
+Total 0 fatals, 0 errors, 2 warnings, 2 infos.
